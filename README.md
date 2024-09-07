@@ -5,7 +5,7 @@ A script for automatically hiding the screen in OBS when NSFW content is detecte
 ## Installation
 
 1. **Install Python**
-   - Download and install [Python](https://www.python.org/downloads /).
+   - Download and install [Python](https://www.python.org/downloads/).
 
 3. **Clone or download the repository**:
    - ``git clone https://github.com/Serfetto/NSFW-Classification ``
@@ -26,7 +26,7 @@ A script for automatically hiding the screen in OBS when NSFW content is detecte
 5. **Model and scene settings**
    - After adding the script, you will be prompted to specify the path to the model and the scene where the filter will be created to hide the screen (the source `Background color` is added).
 5. **Download the model**
-   - The model is available for download at this [link] (https://drive.google.com/file/d/1Vl5pY9ERFb-L5eF73Qt9Dumkmlrgykyk/view ?usp=drive_link).
+   - The model is available for download at this [link](https://drive.google.com/file/d/1Vl5pY9ERFb-L5eF73Qt9Dumkmlrgykyk/view?usp=drive_link).
 7. **Specify the path to the model**
    - Example of a path: ``C:\Users \<name>\Downloads\512old.pt ``
 7. **Start filtering**
