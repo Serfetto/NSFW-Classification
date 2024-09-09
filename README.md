@@ -33,4 +33,6 @@ A script for automatically hiding the screen in OBS when NSFW content is detecte
    - Click the `Start filtering` button so that the script creates a "Background Color (filter nsfw)" source. After clicking on the `Stop filtering` button, the script will automatically delete the created source and finish its work
    - The script will launch a model that will hide the screen when NSFW content is detected. Depending on your settings, the startup can take place on the GPU or CPU (see the section "Installation", point 4).
 
+Upd: This script doesn't work on operating system Linux
+
 P.S. For more information about training model, you can find in this [repositoty](https://github.com/Serfetto/NSFW-Model)
