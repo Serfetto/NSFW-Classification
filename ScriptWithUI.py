@@ -100,12 +100,13 @@ def connecting_model():
     global model
 
     model = YOLO(path_to_model, task='classify')
-    #torch.cuda.set_device(0)
-
+    
     if torch.cuda.is_available():
-        device = 'cuda'
+        device = torch.device('cuda')
+        print("Using CUDA device")
     else:
-        device = 'cpu'
+        device = torch.device('cpu')
+        print("Using CPU")
 
     model.to(device)
 
