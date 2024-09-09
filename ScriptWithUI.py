@@ -100,7 +100,7 @@ def connecting_model():
     global model
 
     model = YOLO(path_to_model, task='classify')
-    torch.cuda.set_device(0)
+    #torch.cuda.set_device(0)
 
     if torch.cuda.is_available():
         device = 'cuda'
